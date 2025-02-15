@@ -21,7 +21,7 @@ export default function ContactUs() {
           >
             <div className="flex items-center space-x-4">
               <FaMapMarkerAlt className="text-sky-400 text-2xl" />
-              <p className="text-gray-300">North nazmabad, karachi City, Pakistan</p>
+              <p className="text-gray-300">Asia Parveen, karachi City, Pakistan</p>
             </div>
             <div className="flex items-center space-x-4">
               <FaEnvelope className="text-sky-400 text-2xl" />

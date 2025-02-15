@@ -20,21 +20,24 @@ export default function Footer() {
 
           <nav className="mt-4 md:mt-0">
             <ul className="flex space-x-6 text-gray-400">
-              <li className="hover:text-sky-400 transition duration-300">
+              {/* <li className="hover:text-sky-400 transition duration-300">
                 <a href="#">Home</a>
-              </li>
+              </li> */}
             
               <li className="hover:text-sky-400 transition duration-300">
-                <a href="#">Technology</a>
+                <a href="#technology">Technology</a>
               </li>
-              <li className="hover:text-sky-400 transition duration-300">
+              {/* <li className="hover:text-sky-400 transition duration-300">
                 <a href="#">Feature</a>
+              </li> */}
+              <li className="hover:text-sky-400 transition duration-300">
+                <a href="#fearure">Feature</a>
               </li>
               <li className="hover:text-sky-400 transition duration-300">
-                <a href="#">Pricing</a>
+                <a href="#pricing">Pricing</a>
               </li>
               <li className="hover:text-sky-400 transition duration-300">
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
             </ul>
           </nav>

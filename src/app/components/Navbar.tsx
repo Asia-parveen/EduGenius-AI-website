@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-blue-900 to-purple-900 text-white py-4 px-6 shadow-lg">
+    <nav className="bg-gradient-to-r from-blue-900 to-purple-900 text-white py-4 px-6 shadow-lg sticky top-0 ">
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo */}
         <div className="flex items-center">
@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-8 text-lg">
+        <div className="hidden md:flex space-x-8 text-lg sticky">
           {['Agent', 'Features', 'Technology', 'Pricing'].map((item, index) => (
             <motion.a 
               key={index} 
