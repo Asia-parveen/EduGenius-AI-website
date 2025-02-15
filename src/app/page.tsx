@@ -11,11 +11,13 @@ import PerformanceGraph from "./components/PerformanceGraph";
 import ClientTestimonials from "./components/ClientTestimonials";
  import ContactUs from "./components/ContactUs";
 import Footer from "./components/Footer";
+import Chatbot from "./components/Chatbot";
 
 export default function Home() {
   return (
     <div className="bg-gray-900 text-white">
       <HeroSection />
+      <Chatbot/>
       <FeatureSection /> 
       <PerformanceGraph /> 
       <TechnologiesSection /> 

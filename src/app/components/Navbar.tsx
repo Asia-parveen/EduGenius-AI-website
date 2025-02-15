@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-blue-900 to-purple-900 text-white py-4 px-6 shadow-lg sticky top-0 z-50 ">
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo */}
-        <div className="flex items-center">
+        {/* <div className="flex items-center">
           <Image 
             src="/images/ai.png" 
             width={80} 
@@ -20,7 +20,21 @@ const Navbar = () => {
             alt="EduGenius AI Logo" 
             className="rounded-full"
           />
-        </div>
+        </div> */}
+        {/* Logo with Infinite Rotation */}
+<motion.div 
+  animate={{ rotate: 360 }} 
+  transition={{ repeat: Infinity, duration: 5, ease: "linear" }}
+>
+  <Image 
+    src="/images/ai.png" 
+    width={80} 
+    height={80} 
+    alt="EduGenius AI Logo" 
+    className="rounded-full"
+  />
+</motion.div>
+
 
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-8 text-lg sticky">
