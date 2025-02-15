@@ -29,7 +29,7 @@ export default function ContactUs() {
             </div>
             <div className="flex items-center space-x-4">
               <FaPhoneAlt className="text-sky-400 text-2xl" />
-              <p className="text-gray-300">0305-1234567</p>
+              <p className="text-gray-300">0305-9989157</p>
             </div>
           </motion.div>
 

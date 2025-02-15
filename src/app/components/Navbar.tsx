@@ -9,7 +9,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-blue-900 to-purple-900 text-white py-4 px-6 shadow-lg sticky top-0 ">
+    <nav className="bg-gradient-to-r from-blue-900 to-purple-900 text-white py-4 px-6 shadow-lg sticky top-0 z-50 ">
       <div className="container mx-auto flex justify-between items-center px-6">
         {/* Logo */}
         <div className="flex items-center">
