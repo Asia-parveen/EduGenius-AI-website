@@ -46,7 +46,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} EduGenius AI. All rights reserved.
+            © {new Date().getFullYear()} Asia Parveen EduGenius AI. All rights reserved.
           </p>
 
           {/* Social Icons */}

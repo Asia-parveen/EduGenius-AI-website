@@ -15,13 +15,13 @@ const testimonials = [
     name: "Daniel Lee",
     role: "Software Engineer",
     text: "&ldquo;The AI-driven analytics helped me track my progress and optimize my learning.&rdquo;",
-    image: "/images/clnt.png",
+    image: "/images/clnt2.png",
   },
   {
     name: "Emma Wilson",
     role: "Data Scientist",
     text: "&ldquo;An exceptional AI-powered platform that provides personalized education efficiently.&rdquo;",
-    image: "/images/clnt.png",
+    image: "/images/clnt3.png",
   },
 ];
 
